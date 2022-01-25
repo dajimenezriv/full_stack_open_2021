@@ -64,7 +64,7 @@ const App = () => {
     e.preventDefault()
     if (window.confirm(`Delete ${person.name}`)) {
       personService.remove(person.id).then(() => {
-        setPersons(persons.filter(p => p.id != person.id))
+        setPersons(persons.filter(p => p.id !== person.id))
       })
     }
   }
@@ -75,6 +75,7 @@ const App = () => {
 
   return (
     <div>
+      HOLa
       <h2>Phonebook</h2>
       <Notification message={successMessage} className='message success' />
       <Notification message={errorMessage} className='message error' />
