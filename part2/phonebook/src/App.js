@@ -75,7 +75,6 @@ const App = () => {
 
   return (
     <div>
-      HOLa
       <h2>Phonebook</h2>
       <Notification message={successMessage} className='message success' />
       <Notification message={errorMessage} className='message error' />
