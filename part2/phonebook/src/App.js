@@ -47,6 +47,7 @@ const App = () => {
       }
       personService.update(person.id, person).then(() => {
         setPersons(persons.map(p => p.id !== person.id ? p : person))
+        setSuccessMessage(`Updated ${person.name}`)
       }).catch(() => {
         setErrorMessage(`${person.name} does not exist in the database.`)
         setTimeout(() => setErrorMessage(null), 5000)
