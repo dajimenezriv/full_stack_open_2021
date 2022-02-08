@@ -52,8 +52,8 @@ const App = () => {
         setPersons(persons.map(p => p.id !== person.id ? p : person))
         setSuccessMessage(`Updated ${person.name}`)
         setTimeout(() => setSuccessMessage(null), 5000)
-      }).catch(() => {
-        setErrorMessage(`${person.name} does not exist in the database.`)
+      }).catch(error => {
+        setErrorMessage(error)
         setTimeout(() => setErrorMessage(null), 5000)
       })
     }
