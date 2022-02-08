@@ -35,7 +35,7 @@ const App = () => {
         setNewName('')
         setNewNumber('')
       })
-        .catch(err => setErrorMessage(err))
+        .catch(err => console.log(err))
     }
   }
 
