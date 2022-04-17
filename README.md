@@ -9,13 +9,13 @@ Just fundamentals of the web. Nothing to code.
 
 ## Part 1 (Introduction to React)
 How to create components in React.<br>
-Basic stuff about javascript (variables, objects...).
-States, props and events.
+Basic stuff about javascript (variables, objects...).<br>
+States, props and events.<br>
 How rendering works, debugging in chrome.
 
 ## Part 2 (Communicating with server)
-Using arrays to create components in React.
-Basic forms.
-Getting data from server (axios and promises).
-Sending data to server and clear code.
+Using arrays to create components in React.<br>
+Basic forms.<br>
+Getting data from server (axios and promises).<br>
+Sending data to server and clear code.<br>
 Styles to React.
