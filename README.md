@@ -8,7 +8,7 @@ This respository contains the part 1 and 2.
 Just fundamentals of the web. Nothing to code.
 
 ## Part 1 (Introduction to React)
-How to create components in React.
+How to create components in React.<br>
 Basic stuff about javascript (variables, objects...).
 States, props and events.
 How rendering works, debugging in chrome.
