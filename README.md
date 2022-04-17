@@ -13,6 +13,14 @@ Basic stuff about javascript (variables, objects...).<br>
 States, props and events.<br>
 How rendering works, debugging in chrome.
 
+### How to run?
+
+Move youself inside the project you want to run.
+
+```bash
+npm start
+```
+
 ## Part 2 (Communicating with server)
 Using arrays to create components in React.<br>
 Basic forms.<br>
