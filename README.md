@@ -40,11 +40,23 @@ npm start
 
 This project has more options to run.
 
+#### Locally
+
 Runs a small server in http://localhost:3001 that serves the file db.json:
 
 ```console
 npm run server
 ```
+
+The database is in the url http://localhost:3001/persons.
+
+We need to change in `src/services/persons.js` the baseUrl and put:
+
+```javascript
+const baseUrl = 'http://localhost:3001/persons'
+```
+
+#### Heroku
 
 Assuming the following project structure:
 
@@ -53,7 +65,7 @@ Assuming the following project structure:
 |- full_stack_open_2021_part3
 ```
 
-Create the build directory with the production build of the frontend and copies it to full_stack_open_2021_part3.
+Creates the build directory with the production build of the frontend and copies it to full_stack_open_2021_part3.
 
 ```console
 # "build:ui": "npm run build && xcopy /E /Y build ..\\..\\..\\full_stack_open_2021_part3\\build"
