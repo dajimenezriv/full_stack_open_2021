@@ -40,7 +40,7 @@ npm start
 
 This project has more options to run.
 
-#### Locally
+#### Simple
 
 Runs a small server in http://localhost:3001 that serves the file db.json:
 
@@ -56,7 +56,13 @@ We need to change in `src/services/persons.js` the baseUrl and put:
 const baseUrl = 'http://localhost:3001/persons'
 ```
 
-#### Heroku
+Then run the frontend with:
+
+```console
+npm start
+```
+
+#### Using real backend
 
 Assuming the following project structure:
 
