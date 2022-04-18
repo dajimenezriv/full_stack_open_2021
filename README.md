@@ -27,3 +27,28 @@ Basic forms.<br>
 Getting data from server (axios and promises).<br>
 Sending data to server and clear code.<br>
 Styles to React.
+
+### How to run?
+
+Move youself inside the project you want to run.
+
+```bash
+npm start
+```
+
+### Phonebook
+
+This project has more options to run.
+
+Runs a small server in http://localhost:3001 that serves the file db.json:
+
+```bash
+npm run server
+```
+
+Assuming the following project structure:
+
+```
+|- full_stack_open_2021
+|- full_stack_open_2021_part3
+```
