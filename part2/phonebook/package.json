@@ -19,10 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "server": "json-server --port 3001 --watch db.json",
-    "build:ui": "npm run build && xcopy /E /Y build ..\\..\\..\\full_stack_open_2021_part3\\build",
-    "deploy": "git push heroku main",
-    "deploy:full": "npm run build:ui && git add . && git commit -m uibuild && git push && npm run deploy",    
-    "logs:prod": "heroku logs --tail"
+    "build:ui": "npm run build && xcopy /E /Y build ..\\..\\..\\full_stack_open_2021_part3\\build"
   },
   "eslintConfig": {
     "extends": [

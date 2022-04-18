@@ -77,3 +77,5 @@ Creates the build directory with the production build of the frontend and copies
 # "build:ui": "npm run build && xcopy /E /Y build ..\\..\\..\\full_stack_open_2021_part3\\build"
 npm run build:ui
 ```
+
+Now, continue the project in [part 3](https://github.com/dajimenezriv/full_stack_open_2021_part3).
