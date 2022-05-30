@@ -1,6 +1,6 @@
 # full_stack_open_2021
 
-Based on the course: https://fullstackopen.com/.
+Based on the course: [fullstackopen](https://fullstackopen.com/en/).
 
 This respository contains the part 1 and 2.
 
